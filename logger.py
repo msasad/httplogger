@@ -8,7 +8,7 @@ class Logger:
     def response(self, flow):
         self.l.response_body = flow.response.get_text()
         self.l.response_headers = json.dumps(dict(flow.response.headers))
-        self.l.rtt = flow.request.timestamp_end - flow.request.timestamp_start
+        self.l.rtt = flow.response.timestamp_end - flow.request.timestamp_start
         self.l.code = flow.response.status_code
         self.l.save()
 
