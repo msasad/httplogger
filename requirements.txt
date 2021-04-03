@@ -38,7 +38,7 @@ ptyprocess==0.6.0
 publicsuffix2==2.20191221
 pyasn1==0.4.8
 pycparser==2.20
-Pygments==2.6.1
+Pygments==2.7.4
 pyOpenSSL==19.0.0
 pyparsing==2.4.6
 pyperclip==1.7.0
