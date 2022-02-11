@@ -33,7 +33,7 @@ peewee==3.13.2
 pexpect==4.8.0
 pickleshare==0.7.5
 prompt-toolkit==3.0.5
-protobuf==3.10.0
+protobuf==3.15.0
 ptyprocess==0.6.0
 publicsuffix2==2.20191221
 pyasn1==0.4.8
